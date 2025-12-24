@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Output</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle at top, #1c2c47, #060b14);
+            color: white;
+        }
+
+        .navbar {
+            width: 100%;
+            height: 90px;
+            padding: 0 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(to bottom,#071944, #213670);
+            box-shadow: inset 0 -2px 0 #3F7680;
+            border-radius: 0;
+        }
+
+        .navbar-title {
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        .nav-btn {
+            background: linear-gradient(to right, #2f6bff, #1e4dff);
+            padding: 14px 40px;
+            border-radius: 40px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            transition: 0.3s ease;
+            box-shadow: 0 0 25px rgba(80, 130, 255, 0.9);
+        }
+
+        .nav-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 35px rgba(100, 160, 255, 1);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+
+        .card {
+            position: relative;
+            background: linear-gradient(180deg, #141414, #0b0b0b);
+            border-radius: 18px;
+            padding: 25px;
+            box-shadow:
+                0 0 0 2px #6B9FA8,
+                0 0 25px rgba(107, 159, 168, 0.35);
+            transition: 0.4s ease;
+            overflow: hidden;
+        }
+
+        .card::before {
+            content: "★";
+            position: absolute;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #00ffe1;
+            font-size: 18px;
+        }
+
+        .card h2 {
+            text-align: center;
+            display: block;
+            color: #9CCED8;
+            
+        }
+        wdym .card h2: :
+
+        .card p {
+            text-align: center;
+            font-size: 15px;
+            opacity: 0.9;
+        }
+
+        .open-btn {
+            display: block;
+            margin: 18px auto;
+            padding: 12px 22px;
+             background: linear-gradient(
+        to bottom,
+        rgba(0, 225, 255, 0.6),
+        rgba(63, 118, 128, 0.4)
+    );
+    border-left: 4px solid #9CCED8;
+            color: black;
+            font-weight: bold;
+            border-radius: 25px;
+            text-decoration: none;
+            width: fit-content;
+            box-shadow: 0 0 18px rgba(156, 206, 216, 0.85);
+        }
+
+        .preview {
+            background: rgba(255,255,255,0.06);
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 15px;
+            max-height: 0;
+            opacity: 0;
+            overflow: hidden;
+            transition: 0.45s ease;
+        }
+
+        .card:hover .preview {
+            max-height: 220px;
+            opacity: 1;
+        }
+
+        .site-footer {
+                color: #9CCED8;
+                text-align: center;
+                padding: 12px 0;
+                font-family: "Segoe UI", Arial, sans-serif;
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                text-shadow: 0 0 6px rgba(156, 206, 216, 0.6);
+                width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+
+<header class="navbar">
+    <div class="navbar-title">
+        FINAL OUTPUT FOR WEB SYSTEMS & TECHNOLOGIES
+    </div>
+    <a href="Homepage.html" class="nav-btn">Home Page</a>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>Activity 1</h2>
+        <p>Welcome to HTML</p>
+        <a href="Act1.html" class="open-btn" target="_blank">Open Activity 1 ↗</a>
+        <div class="preview">
+            <p>Simple webpage header introducing HTML and EVSU IT Department.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Activity 2</h2>
+        <p>Curriculum Vitae</p>
+        <a href="Act2.html" class="open-btn" target="_blank">Open Activity 2 ↗</a>
+        <div class="preview">
+            <p>Formal CV showing personal information, education, and skills.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Activity 3</h2>
+        <p>My First Styled Page</p>
+        <a href="Act3.html" class="open-btn" target="_blank">Open Activity 3 ↗</a>
+        <div class="preview">
+            <p>Styled educational webpage covering algebra and chemistry topics.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Activity 4</h2>
+        <p>Basic Parts of Computer</p>
+        <a href="Act4.html" class="open-btn" target="_blank">Open Activity 4 ↗</a>
+        <div class="preview">
+            <p>Lesson on the three basic parts of a computer and HTML terms.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Activitt 5</h2>
+        <p>Gym Schedule</p>
+        <a href="Act5.html" class="open-btn" target="_blank">Open Activity 5 ↗</a>
+        <div class="preview">
+            <p>Weekly fitness schedule with activities and time slots.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Activity 6</h2>
+        <p>Student Enrollment Form</p>
+        <a href="Act 6.html" class="open-btn" target="_blank">Open Activity 6 ↗</a>
+        <div class="preview">
+            <p>Student enrollment form with personal info and subject selection.</p>
+        </div>
+    </div>
+
+</div>
+
+<footer class="site-footer">
+    I hope you like the website
+</footer>
+
+</body>
+</html>

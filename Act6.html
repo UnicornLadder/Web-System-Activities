@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ACT 6 (Student Enrollment Updated)</title>
+</head>
+
+<body>
+
+    <center><h1>Student Enrollment Form</h1></center>
+
+    <form name="enrollmentForm" method="post" action="mailto:stiffijoyce.tumandao@evsu.edu.ph">
+
+        <fieldset>
+            <legend><b>STUDENT NAME</b></legend>
+
+            <p>
+                <input type="text" name="firstName" placeholder="First name (e.g. John)" size="35">
+                <input type="text" name="lastName" placeholder="Last name (e.g. Dela Cruz)" size="42">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>STUDENT ADDRESS</b></legend>
+
+            <p><input type="text" placeholder="Address Line 1" size="78"></p>
+            <p><input type="text" placeholder="Address Line 2 (optional)" size="80"></p>
+
+            <p>
+                <input type="text" placeholder="City" size="28">
+                <input type="text" placeholder="Region/Province" size="34">
+            </p>
+
+            <p>
+                <input type="text" placeholder="Postal / Zip Code" size="26">
+
+                <select name="country">
+                    <option value="">-- Select Country --</option>
+                    <option>Philippines</option>
+                    <option>United States</option>
+                    <option>Canada</option>
+                    <option>Japan</option>
+                    <option>Australia</option>
+                    <option>Thailand</option>
+                    <option>Others</option>
+                    <option>N/A</option>
+                </select>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>GENDER</b></legend>
+
+            <p>
+                <input type="radio" name="gender" value="male"> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="none"> Prefer not to say
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend><b>CLASS</b></legend>
+
+            <p><b>ENGLISH CLASS</b></p>
+            <select>
+                <option>Please select</option>
+                <option>Literature</option>
+                <option>Grammar</option>
+                <option>Reading and Writing</option>
+                <option>N/A</option>
+            </select>
+
+            <p><b>MATH CLASS</b></p>
+            <select>
+                <option>Please select</option>
+                <option>Algebra</option>
+                <option>Geometry</option>
+                <option>Calculus</option>
+                <option>N/A</option>
+            </select>
+
+            <p><b>SCIENCE CLASS</b></p>
+            <select>
+                <option>Please select</option>
+                <option>Physics</option>
+                <option>Chemistry</option>
+                <option>Biology</option>
+                <option>N/A</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            <legend><b>COMMENTS / NOTES</b></legend>
+
+            <p><textarea rows="7" cols="90" placeholder="Write any extra notes or concerns here..."></textarea></p>
+
+        </fieldset>
+
+        <p>
+            <input type="submit" name="submitBtn" value="Submit Form">
+        </p>
+
+    </form>
+
+</body>
+</html>

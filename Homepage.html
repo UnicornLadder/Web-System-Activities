@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Final Output</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: radial-gradient(circle at top, #1c2c47, #060b14);
+            color: white;
+        }
+        .profile-name {
+            margin: 0;
+            margin-bottom: px;
+            font-size: 25px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.6);
+            text-align: center;
+        }
+        .framed-box {
+            background: #161752;
+            border: 2px solid #0b3cff;
+            border-radius: 10px;
+            padding: 30px 30px;
+            box-shadow: 0 0 40px rgba(11, 60, 255, 0.4);
+            width: 300px;
+            margin: 0 auto;
+        }
+        .title-pill {
+            display: inline-block;
+            background: linear-gradient(to right, #000000, #0b3cff);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 40px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: linear-gradient(to bottom, #071944, #213670);
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 13px;
+        }
+
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+
+        .card {
+            width: 700px;
+            padding: 60px 40px;
+            background: linear-gradient(145deg, #1f2f4d, #0c1528);
+            border-radius: 15px;
+            box-shadow: 25px 25px 100px rgba(34, 20, 218, 0.6);
+        }
+
+        .side-layout {
+            display: flex;
+            flex-direction: column;   
+            align-items: center;     
+            gap: 30px;               
+}
+ 
+        .picture-box {
+            width: 200px;
+            height: 210px;
+            border-radius: 12px;
+            overflow: hidden;
+            background-color: #0b3cff;
+        }
+
+        .picture-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .btn {
+            background-color: #2f6bff;
+            border: none;
+            padding: 16px 55px;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #1e55e0;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            .side-layout {
+                flex-direction: column;
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="title-pill">
+            FINAL OUTPUT FOR WEB SYSTEMS & TECHNOLOGIES
+        </div>
+
+        <div class="nav-links title-pill">
+            <a href="#">ACTIVITIES</a>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="card">
+            <div class="side-layout framed-box">
+                <h2 class="profile-name">VALENTE C. ADOLFO</h2>
+                <div class="picture-box">
+                    <img src="picture.jpg" alt="My Picture">
+                </div>
+
+                <button class="btn">ABOUT ME</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
